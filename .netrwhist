@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/alex'
 let g:netrw_dirhist_2='/Users/alex/.config'
 let g:netrw_dirhist_3='/Users/alex/.config/nvim'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/Users/alex/.confic'
 let g:netrw_dirhist_6='/Users/alex/.confic/nvim'
 let g:netrw_dirhist_7='/Users/alex/.confic'
 let g:netrw_dirhist_8='/Users/alex/.config/nvim'
+let g:netrw_dirhist_9='/home/alex/.config/nvim'
