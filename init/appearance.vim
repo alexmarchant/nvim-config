@@ -4,4 +4,4 @@ set termguicolors
 " Colorscheme
 syntax enable
 set background=dark
-colorscheme gruvbox
+colorscheme solarized
