@@ -25,6 +25,10 @@ nmap ga <Plug>(EasyAlign)
 " Enable sparkup for jsx
 autocmd FileType javascript.jsx runtime! ftplugin/html/sparkup.vim 
 
+" vim-jsx
+" Allow .js files to get jsx syntax highlights
+let g:jsx_ext_required = 0
+
 " vim-css3-syntax
 " Fix issues with value keywords with hyphens in them, may cause issues!
 autocmd FileType css set iskeyword+=-
