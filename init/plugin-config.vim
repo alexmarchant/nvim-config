@@ -36,3 +36,7 @@ autocmd FileType scss set iskeyword+=-
 " fzf.vim
 " Map some commands
 nnoremap <c-p> :FZF<CR>
+
+" Nerdtree
+" Make the window larger
+let g:NERDTreeWinSize=50

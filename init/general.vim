@@ -10,3 +10,6 @@ set nu
 " Search config
 set ignorecase " Case-insensitive searching.
 set smartcase " But case-sensitive if expression contains a capital letter.
+
+" PHP indenting
+autocmd FileType php setlocal tabstop=4 shiftwidth=4 softtabstop=4
