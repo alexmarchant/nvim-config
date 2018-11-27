@@ -44,3 +44,11 @@ nnoremap <c-p> :FZF<CR>
 " Nerdtree
 " Make the window larger
 let g:NERDTreeWinSize=50
+
+" vim-vue
+" Syntax highlighting reload each time you open a vue file
+autocmd FileType vue syntax sync fromstart
+
+" Set neomake to use local eslint so it picks up local
+" eslint addons
+let g:neomake_javascript_eslint_exe = $PWD .'/node_modules/.bin/eslint'

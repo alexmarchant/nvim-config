@@ -1,10 +1,9 @@
 call plug#begin()
-Plug 'frankier/neovim-colors-solarized-truecolor-only'            " Colorscheme
+Plug 'crusoexia/vim-monokai'                                      " Colorscheme
 Plug 'vim-airline/vim-airline'                                    " Status bar
 Plug 'tpope/vim-fugitive'                                         " Git integrations
 Plug 'scrooloose/nerdtree'                                        " File explorer
 Plug 'Shougo/deoplete.nvim', { 'do':  ':UpdateRemotePlugins' }    " Code completion
-Plug 'neomake/neomake'                                            " Code linting
 Plug 'tpope/vim-surround'                                         " Surround text with different symbols
 Plug 'tpope/vim-ragtag'                                           " Insert HTML and script tags
 Plug 'rstacruz/sparkup'                                           " HTML text expandsion
@@ -27,5 +26,7 @@ Plug 'ianks/vim-tsx'                                              " TSX syntax
 Plug 'lumiliet/vim-twig'                                          " Twig template support
 Plug 'rust-lang/rust.vim'                                         " Rust support
 Plug 'joonty/vdebug'                                              " Xdebug utility
+Plug 'ElmCast/elm-vim'                                            " Elm support
+Plug 'w0rp/ale'                                                   " Code linting
 call plug#end()
 
